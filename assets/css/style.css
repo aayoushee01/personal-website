@@ -242,6 +242,8 @@ article.active {
 .article-title {
   position: relative;
   padding-bottom: 7px;
+  padding-top: 10px;
+  margin-top: 20px; 
 }
 
 .article-title::after {
@@ -334,6 +336,7 @@ main {
   flex-wrap: wrap;
   gap: 3px;
   row-gap: 7px;
+  margin-top: 20px;
   /* display: grid;
   grid-template-columns: auto auto;
   gap: 3px;
@@ -860,6 +863,19 @@ main {
 /**
  * skills 
  */
+.tskilltitle{
+  color:white
+}
+.tskill{
+  color: var(--white-1);
+  background: var(--onyx);
+  font-size: var(--fs-8);
+  font-weight: var(--fw-300);
+  width: max-content;
+  padding: 3px 12px;
+  border-radius: 8px;
+  padding: 5px 12px;
+}
 
 .skills-title { margin-bottom: 20px; }
 
@@ -1414,7 +1430,9 @@ textarea.form-input::-webkit-resizer { display: none; }
    * #ABOUT
    */
 
-  .about .article-title { margin-bottom: 20px; }
+  .about .article-title { 
+    margin-bottom: 20px; 
+  }
 
   .about-text { margin-bottom: 40px; }
 
